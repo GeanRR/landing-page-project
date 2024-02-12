@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #02060a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 180px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 12px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.hero {
+    background-color: #02060a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    padding: 32px 180px;
+}
+
+.hero-copy h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero-copy p {
+    font-size: 18px;
+    color: #e5e7eb;
+    line-height: 150%;
+}
+
+.hero-img img {
+    width: 560px;
+}
+
+button {
+    font-size: 18px;
+    padding: 12px 24px;
+    font-weight: 900;
+    border-radius: 8px;
+    color: #02060a;
+}

@@ -15,6 +15,7 @@ a {
     text-decoration: none;
     color: #e5e7eb;
     padding: 12px;
+    font-weight: 600;
 }
 
 .logo {
@@ -42,6 +43,7 @@ a {
     font-size: 18px;
     color: #e5e7eb;
     line-height: 150%;
+    margin-bottom: 48px;
 }
 
 .hero-img img {
@@ -52,6 +54,87 @@ button {
     font-size: 18px;
     padding: 12px 24px;
     font-weight: 900;
-    border-radius: 8px;
+    cursor: pointer;
     color: #02060a;
+    width: 160px;
+    height: 52px;
+}
+
+.cards {
+    display: flex;
+    padding: 24px 180px;
+    gap: 48px;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+
+.card p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 150%;
+    padding: 0 8px;
+}
+
+.container {
+    margin: 48px 0;
+}
+
+.container h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #eeeeee;
+    padding: 96px 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p:first-child {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    color: #595d61;
+    line-height: 150%;
+}
+
+.quote p:nth-child(2) {
+    font-size: 18px;
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.cta-container {
+    padding: 96px 180px;
+}
+
+.cta-card {
+    background-color: #02060a;
+    color: #f9faf8;
+    display: flex;
+    padding: 48px 64px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-copy h3 {
+    font-size: 24px;
+}
+
+.cta-copy p {
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    background-color: #02060a;
+    color: #f9faf8;
+    padding: 48px 180px;
+    justify-content: center;
 }
